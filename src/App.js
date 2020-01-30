@@ -7,19 +7,48 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Welcome to Mental Health App!
+          Resources
         </p>
-        <a
-          className="App-link"
-          href="https://docs.google.com/presentation/d/1_AsFBV1M9crXbdV_lFcrrF4NZ-UPIoSl97fIgwuxy94/edit?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click for Details!
-        </a>
       </header>
+      <body>
+      <div className="App-Resource">
+              <header className="Resource">
+                  <p>
+                  Campus Resources
+                  </p>
+              </header>
+              <div className="Title">
+                              <header className="Title1">
+                                  <p>
+                                  Title1
+                                  </p>
+                               </header>
+                             </div>
+        </div>
+
+        <div className="App-Resource">
+          <header className="Resource">
+             <p>
+             Local Resources
+             </p>
+           </header>
+         </div>
+
+        <div className="App-Resource">
+          <header className="Resource">
+             <p>
+             National Resources
+             </p>
+          </header>
+         </div>
+      </body>
     </div>
+
+
+
   );
 }
+
+
 
 export default App;
