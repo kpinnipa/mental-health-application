@@ -30,18 +30,20 @@ export default class App extends React.Component{
       <body>
          {<ResourceBox/>}
          <div class="column-left">
-         {<ResourceBlock name1 = "Local"
+         {<ResourceBlock title = "LOCAL"
+                         name1 = "Jared Padilla"
                          phone1 = "(123) 3456-7890"
                          email1 = "help@gmail.com"
-                         name2 = "Local"
+                         name2 = "Jared Padilla"
                          phone2 = "(123) 3456-7890"
                          email2 = "help@gmail.com"
-                         name3 = "Local"
+                         name3 = "Jared Padilla"
                          phone3 = "(123) 3456-7890"
                          email3 = "help@gmail.com"/>}
         </div>
         <div class="column-center">
-         {<ResourceBlock name1 = "Jared Padilla"
+         {<ResourceBlock title = "CAMPUS"
+                         name1 = "Jared Padilla"
                          phone1 = "(123) 3456-7890"
                          email1 = "help@gmail.com"
                          name2 = "Jared Padilla"
@@ -52,7 +54,8 @@ export default class App extends React.Component{
                          email3 = "help@gmail.com"/>}
         </div>
         <div class="column-right">
-         {<ResourceBlock name1 = "Jared Padilla"
+         {<ResourceBlock title = "SUPPORT"
+                         name1 = "Jared Padilla"
                          phone1 = "(123) 3456-7890"
                          email1 = "help@gmail.com"
                          name2 = "Jared Padilla"

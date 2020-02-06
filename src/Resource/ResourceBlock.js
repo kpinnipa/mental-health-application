@@ -6,6 +6,7 @@ import SmallResourceBox from './SmallResourceBox';
 export default class ResourceBlock extends React.Component {
 
     static propTypes = {
+        title: PropsTypes.string,
         name1: PropsTypes.string,
         phone1: PropsTypes.number,
         email1: PropsTypes.string,
@@ -24,9 +25,10 @@ export default class ResourceBlock extends React.Component {
         }
     }
     render() {
-        const Title = ({ title }) => <h1>{title.text}</h1>;
+        const Title = ({ title }) => <h1 className="Title">{title.text}</h1>;
         return(
             <div className="SmallBoxOutline">
+                <Title title={{text: this.props.title}}/>
                 {<SmallResourceBox name= {this.props.name1} phone={this.props.phone1} email={this.props.email1}/>}
                 {<SmallResourceBox name= {this.props.name2} phone={this.props.phone2} email={this.props.email2}/>}
                 {<SmallResourceBox name= {this.props.name3} phone={this.props.phone3} email={this.props.email3}/>}
