@@ -8,7 +8,7 @@ export default class ResourceBox extends React.Component {
         }
     }
     render() {
-        const Description = ({ description }) => <p classNmae="Description-Resource">{description.text}</p>;
+        const Description = ({ description }) => <p className="Description-Resource">{description.text}</p>;
         return (
             <div className="Big-Box">
                 <header className="Resource-Overall">

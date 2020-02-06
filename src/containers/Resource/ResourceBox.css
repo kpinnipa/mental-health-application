@@ -23,11 +23,11 @@
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 60px;
     line-height: 72px;
     color: #0D2020;
-    width: 337px;
-    height: 72px;
+  
+    height: 52px;
     left: 469px;
     top: 28px;
     text-transform: uppercase;
@@ -40,11 +40,10 @@
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
-    line-height: 45px;
+    line-height: 10px;
     align-items: center;
     text-align: center;
     width: 900px;
-    height: 90px;
     left: 188px;
     top: 104px;
   }
