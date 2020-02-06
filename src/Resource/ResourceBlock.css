@@ -1,0 +1,7 @@
+.SmallBoxOutline {
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }

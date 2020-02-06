@@ -1,27 +1,9 @@
 .App {
   margin-top: 25px;
-  background: white;
+  background: #E5E5E5;
 }
 
-.Resource-Overall {
-  align-items: center;
-  align-items: center;
-  text-align: center;
-}
 
-.Big-Box {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 227px ;
-  width: 1275px;
-  left: 81px;
-  top: 112px;
-  background-color: #E5E5E5;
-  border-radius: 25px;
-  margin-top: 100px;
-  margin: 0 auto;
-}
 
 .Small-Box {
   text-align: center;
