@@ -29,6 +29,18 @@ export default class App extends React.Component{
       <div className="App">
       <body>
          {<ResourceBox/>}
+         <div class="column-left">
+         {<ResourceBlock name1 = "Local"
+                         phone1 = "(123) 3456-7890"
+                         email1 = "help@gmail.com"
+                         name2 = "Local"
+                         phone2 = "(123) 3456-7890"
+                         email2 = "help@gmail.com"
+                         name3 = "Local"
+                         phone3 = "(123) 3456-7890"
+                         email3 = "help@gmail.com"/>}
+        </div>
+        <div class="column-center">
          {<ResourceBlock name1 = "Jared Padilla"
                          phone1 = "(123) 3456-7890"
                          email1 = "help@gmail.com"
@@ -38,6 +50,8 @@ export default class App extends React.Component{
                          name3 = "Jared Padilla"
                          phone3 = "(123) 3456-7890"
                          email3 = "help@gmail.com"/>}
+        </div>
+        <div class="column-right">
          {<ResourceBlock name1 = "Jared Padilla"
                          phone1 = "(123) 3456-7890"
                          email1 = "help@gmail.com"
@@ -47,6 +61,7 @@ export default class App extends React.Component{
                          name3 = "Jared Padilla"
                          phone3 = "(123) 3456-7890"
                          email3 = "help@gmail.com"/>}
+        </div>
      </body>
    </div>
 
