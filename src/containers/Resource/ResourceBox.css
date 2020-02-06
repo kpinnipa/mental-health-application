@@ -1,0 +1,50 @@
+ .Resource-Overall {
+    align-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .Big-Box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 227px ;
+    width: 1288px;
+    left: 81px;
+    top: 112px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 15px rgba(114, 141, 149, 0.15);
+  }
+
+  .Title-Resource {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+    color: #0D2020;
+    width: 337px;
+    height: 72px;
+    left: 469px;
+    top: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.15cm;
+    text-align: center;
+  }
+  .Description-Resource {
+    color: #728D95;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    align-items: center;
+    text-align: center;
+    width: 900px;
+    height: 90px;
+    left: 188px;
+    top: 104px;
+  }

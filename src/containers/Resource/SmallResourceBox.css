@@ -1,0 +1,89 @@
+.Small-Box {
+    text-align: center;
+    width: 390px;
+    height: 138px;
+    top: 112px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 25px;
+    line-height: 80%;
+    box-shadow: 4px 4px 15px rgba(114, 141, 149, 0.15);
+    flex-direction: row;
+}
+
+.Info {
+    padding-left: 150px; 
+    
+}
+
+.Name {
+    width: 175px;
+    height: 27px;
+    left: 169px;
+    top: 55px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15cm;
+    color: #4A6E82; 
+}
+
+.Phone {
+    width: 175px;
+    height: 27px;
+    left: 169px;
+    top: 55px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+
+    color: #4A6E82;
+}
+
+.Email {
+    width: 192px;
+    height: 27px;
+    left: 169px;
+    top: 93px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+
+    color: #4A6E82;
+}
+.Image {
+    border-radius: 25px 0px 0px 25px;
+    padding: 5px;
+    width: 105x;
+    height: 139px;
+    left: -150px;
+    top: -152px;
+    position: relative;
+}
+
